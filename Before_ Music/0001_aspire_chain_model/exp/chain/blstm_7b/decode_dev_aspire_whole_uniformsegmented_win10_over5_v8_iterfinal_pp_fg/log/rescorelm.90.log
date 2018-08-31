@@ -1,0 +1,9 @@
+# Running on b05
+# Started at Mon Aug 29 16:54:00 EDT 2016
+# lattice-lmrescore --lm-scale=-1.0 "ark:gunzip -c exp/chain/blstm_7b/decode_dev_aspire_whole_uniformsegmented_win10_over5_v8_iterfinal_pp_tg/lat.90.gz|" "fstproject --project_output=true data/lang_pp_test/G.fst |" ark:- | lattice-lmrescore-const-arpa --lm-scale=1.0 ark:- data/lang_pp_test_fg/G.carpa "ark,t:|gzip -c>exp/chain/blstm_7b/decode_dev_aspire_whole_uniformsegmented_win10_over5_v8_iterfinal_pp_fg/lat.90.gz" 
+lattice-lmrescore-const-arpa --lm-scale=1.0 ark:- data/lang_pp_test_fg/G.carpa 'ark,t:|gzip -c>exp/chain/blstm_7b/decode_dev_aspire_whole_uniformsegmented_win10_over5_v8_iterfinal_pp_fg/lat.90.gz' 
+lattice-lmrescore --lm-scale=-1.0 'ark:gunzip -c exp/chain/blstm_7b/decode_dev_aspire_whole_uniformsegmented_win10_over5_v8_iterfinal_pp_tg/lat.90.gz|' 'fstproject --project_output=true data/lang_pp_test/G.fst |' ark:- 
+LOG (lattice-lmrescore:main():lattice-lmrescore.cc:147) Done 9 lattices, failed for 0
+LOG (lattice-lmrescore-const-arpa:main():lattice-lmrescore-const-arpa.cc:117) Done 9 lattices, failed for 0
+# Accounting: time=29 threads=1
+# Finished at Mon Aug 29 16:54:29 EDT 2016 with status 0

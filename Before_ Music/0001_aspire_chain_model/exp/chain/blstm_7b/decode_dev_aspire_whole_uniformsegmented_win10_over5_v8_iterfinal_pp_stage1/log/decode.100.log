@@ -1,0 +1,31 @@
+# Running on b05
+# Started at Mon Aug 29 15:54:54 EDT 2016
+# nnet3-latgen-faster --online-ivectors=scp:exp/nnet3/ivectors_dev_aspire_whole_uniformsegmented_win10_over5_v8_chain_blstm_7b_iterfinal_scale0.75_stage1/ivector_online.scp --online-ivector-period=10 --frame-subsampling-factor=3 --frames-per-chunk=150 --extra-left-context=0 --extra-right-context=0 --extra-left-context-initial=-1 --extra-right-context-final=-1 --minimize=false --max-active=10000 --min-active=200 --beam=13.0 --lattice-beam=8.0 --acoustic-scale=1.0 --allow-partial=true --word-symbol-table=exp/chain/blstm_7b/graph_pp/words.txt exp/chain/blstm_7b/final.mdl exp/chain/blstm_7b/graph_pp/HCLG.fst "ark,s,cs:apply-cmvn --norm-means=false --norm-vars=false --utt2spk=ark:data/dev_aspire_whole_uniformsegmented_win10_over5_hires/split400utt/100/utt2spk scp:data/dev_aspire_whole_uniformsegmented_win10_over5_hires/split400utt/100/cmvn.scp scp:data/dev_aspire_whole_uniformsegmented_win10_over5_hires/split400utt/100/feats.scp ark:- |" "ark:|lattice-scale --acoustic-scale=10.0 ark:- ark:- | gzip -c >exp/chain/blstm_7b/decode_dev_aspire_whole_uniformsegmented_win10_over5_v8_iterfinal_pp_stage1/lat.100.gz" 
+nnet3-latgen-faster --online-ivectors=scp:exp/nnet3/ivectors_dev_aspire_whole_uniformsegmented_win10_over5_v8_chain_blstm_7b_iterfinal_scale0.75_stage1/ivector_online.scp --online-ivector-period=10 --frame-subsampling-factor=3 --frames-per-chunk=150 --extra-left-context=0 --extra-right-context=0 --extra-left-context-initial=-1 --extra-right-context-final=-1 --minimize=false --max-active=10000 --min-active=200 --beam=13.0 --lattice-beam=8.0 --acoustic-scale=1.0 --allow-partial=true --word-symbol-table=exp/chain/blstm_7b/graph_pp/words.txt exp/chain/blstm_7b/final.mdl exp/chain/blstm_7b/graph_pp/HCLG.fst 'ark,s,cs:apply-cmvn --norm-means=false --norm-vars=false --utt2spk=ark:data/dev_aspire_whole_uniformsegmented_win10_over5_hires/split400utt/100/utt2spk scp:data/dev_aspire_whole_uniformsegmented_win10_over5_hires/split400utt/100/cmvn.scp scp:data/dev_aspire_whole_uniformsegmented_win10_over5_hires/split400utt/100/feats.scp ark:- |' 'ark:|lattice-scale --acoustic-scale=10.0 ark:- ark:- | gzip -c >exp/chain/blstm_7b/decode_dev_aspire_whole_uniformsegmented_win10_over5_v8_iterfinal_pp_stage1/lat.100.gz' 
+lattice-scale --acoustic-scale=10.0 ark:- ark:- 
+apply-cmvn --norm-means=false --norm-vars=false --utt2spk=ark:data/dev_aspire_whole_uniformsegmented_win10_over5_hires/split400utt/100/utt2spk scp:data/dev_aspire_whole_uniformsegmented_win10_over5_hires/split400utt/100/cmvn.scp scp:data/dev_aspire_whole_uniformsegmented_win10_over5_hires/split400utt/100/feats.scp ark:- 
+single_3db5e853-1-300000-310000 so sometimes if he works in like report richmond is as of the mailman and he took something like you were thinking about some cockpit and shot by um 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_3db5e853-1-300000-310000 is 0.714291 over 333 frames.
+single_3db5e853-1-305000-315000 something like you are <unk> getting shot by um by the electric factor yeah so you said 'cause like you said 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_3db5e853-1-305000-315000 is 0.765262 over 333 frames.
+single_3db5e853-1-310000-320000 kind of by the electric factor yeah so you said 'cause like you said that he couldn't take his regular ways to work because all the streets is closed off and i think um 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_3db5e853-1-310000-320000 is 0.856976 over 333 frames.
+single_3db5e853-1-315000-325000 he couldn't take his regular ways to work because on the streets just closed off and i was like oh there was this morning it was recently because it's still all closed off and the other 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_3db5e853-1-315000-325000 is 0.850662 over 333 frames.
+single_3db5e853-1-320000-330000 oh there was this morning it was recently because it's still all closed off the i wasn't sure i will go straight or something like that but if you're using your eyes 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_3db5e853-1-320000-330000 is 0.778509 over 333 frames.
+single_3db5e853-1-325000-335000 or <unk> or something like that but if you're using your eyes i usually i watch the news and the longest time [laughter] so i don't know 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_3db5e853-1-325000-335000 is 0.645705 over 333 frames.
+single_3db5e853-1-330000-340000 i haven't watched the news and the longest time [laughter] so 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_3db5e853-1-330000-340000 is 0.83983 over 333 frames.
+single_3db5e853-1-335000-345000 mhm 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_3db5e853-1-335000-345000 is 1.00182 over 333 frames.
+LOG (apply-cmvn:main():apply-cmvn.cc:146) Applied cepstral mean normalization to 9 utterances, errors on 0
+single_3db5e853-1-340000-350000 mhm 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_3db5e853-1-340000-350000 is 1.05041 over 333 frames.
+LOG (nnet3-latgen-faster:main():nnet3-latgen-faster.cc:246) Time taken 183.919s: real-time factor assuming 100 frames/sec is 2.04764
+LOG (nnet3-latgen-faster:main():nnet3-latgen-faster.cc:249) Done 9 utterances, failed for 0
+LOG (nnet3-latgen-faster:main():nnet3-latgen-faster.cc:251) Overall log-likelihood per frame is 0.278185 over 8982 frames.
+LOG (lattice-scale:main():lattice-scale.cc:90) Done 9 lattices.
+# Accounting: time=197 threads=1
+# Finished at Mon Aug 29 15:58:11 EDT 2016 with status 0

@@ -1,0 +1,7 @@
+# Running on b10
+# Started at Mon Aug 29 16:53:10 EDT 2016
+# ali-to-phones --per-frame=true exp/chain/blstm_7b/decode_dev_aspire_whole_uniformsegmented_win10_over5_v8_iterfinal_pp_tg/../final.mdl "ark:gunzip -c exp/chain/blstm_7b/decode_dev_aspire_whole_uniformsegmented_win10_over5_v8_iterfinal_pp_tg/ali_tmp.7.gz|" ark,t:- | paste /dev/stdin <( gunzip -c exp/chain/blstm_7b/decode_dev_aspire_whole_uniformsegmented_win10_over5_v8_iterfinal_pp_tg/depth_tmp.7.gz ) | awk '{ half=NF/2; for (n=2; n<=half; n++) { m=n+half; count[ " " ]++;}} END{for(k in count) print k, count[k]; }' | gzip -c > exp/chain/blstm_7b/decode_dev_aspire_whole_uniformsegmented_win10_over5_v8_iterfinal_pp_tg/depth_stats_tmp.7.gz 
+ali-to-phones --per-frame=true exp/chain/blstm_7b/decode_dev_aspire_whole_uniformsegmented_win10_over5_v8_iterfinal_pp_tg/../final.mdl 'ark:gunzip -c exp/chain/blstm_7b/decode_dev_aspire_whole_uniformsegmented_win10_over5_v8_iterfinal_pp_tg/ali_tmp.7.gz|' ark,t:- 
+LOG (ali-to-phones:main():ali-to-phones.cc:134) Done 10 utterances.
+# Accounting: time=0 threads=1
+# Finished at Mon Aug 29 16:53:10 EDT 2016 with status 0

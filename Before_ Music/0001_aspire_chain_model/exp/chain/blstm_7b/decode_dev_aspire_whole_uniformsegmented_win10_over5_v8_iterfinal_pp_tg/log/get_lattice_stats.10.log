@@ -1,0 +1,7 @@
+# Running on b17
+# Started at Mon Aug 29 16:52:29 EDT 2016
+# ali-to-phones --write-lengths=true exp/chain/blstm_7b/decode_dev_aspire_whole_uniformsegmented_win10_over5_v8_iterfinal_pp_tg/../final.mdl "ark:gunzip -c exp/chain/blstm_7b/decode_dev_aspire_whole_uniformsegmented_win10_over5_v8_iterfinal_pp_tg/ali_tmp.10.gz|" ark,t:- | sed -E "s/^[^ ]+ //" | awk 'BEGIN{FS=" ; "; OFS="\n";} {print "begin " ; print "end " ; for (n=1;n<=NF;n++) print "all " ; }' | sort | uniq -c | gzip -c > exp/chain/blstm_7b/decode_dev_aspire_whole_uniformsegmented_win10_over5_v8_iterfinal_pp_tg/phone_stats.10.gz 
+ali-to-phones --write-lengths=true exp/chain/blstm_7b/decode_dev_aspire_whole_uniformsegmented_win10_over5_v8_iterfinal_pp_tg/../final.mdl 'ark:gunzip -c exp/chain/blstm_7b/decode_dev_aspire_whole_uniformsegmented_win10_over5_v8_iterfinal_pp_tg/ali_tmp.10.gz|' ark,t:- 
+LOG (ali-to-phones:main():ali-to-phones.cc:134) Done 10 utterances.
+# Accounting: time=0 threads=1
+# Finished at Mon Aug 29 16:52:29 EDT 2016 with status 0

@@ -1,0 +1,1020 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2016.1.22)  12 AUG 2016 08:32
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**exp/chain/blstm_7b/report/report.tex
+(./exp/chain/blstm_7b/report/report.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, cr
+oatian, bulgarian, ukrainian, russian, slovak, czech, danish, dutch, finnish, f
+rench, basque, ngerman, german, swissgerman, ngerman-x-2012-05-30, german-x-201
+2-05-30, monogreek, greek, ibycus, ancientgreek, hungarian, italian, latin, mon
+golian, mongolianlmc, nynorsk, bokmal, indonesian, esperanto, coptic, welsh, ir
+ish, interlingua, serbian, serbianc, slovenian, friulan, romansh, estonian, rom
+anian, armenian, uppersorbian, turkish, afrikaans, icelandic, kurmanji, polish,
+ portuguese, galician, catalan, spanish, swedish, loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/revtex4/revtex4.cls
+Document Class: revtex4 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for do
+cumentation)
+ Copyright (c) 2001 The American Physical Society.
+ mailto:revtex@aps.org
+ Licensed under the LPPL:
+http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
+ Arthur Ogawa <ogawa@teleport.com>
+ Based on work by David Carlisle <david@dcarlisle.demon.co.uk>.
+ltxutil: portions licensed from W. E. Baxter (web@superscript.com)
+Class revtex4 Info: Repairing broken LateX \@sect on input line 596.
+\intertabularlinepenalty=\count79
+\@tbpen=\count80
+\@arstrutbox@hline=\box26
+Class revtex4 Info: Repairing broken LaTeX \@xbitor on input line 1610.
+ltxgrid: portions licensed from W. E. Baxter (web@superscript.com)
+\c@linecount=\count81
+\output=\toks14
+\@protection@box=\box27
+\@topmark@saved=\toks15
+\footins@saved=\box28
+\pagesofar=\box29
+\footbox=\box30
+\pagegrid@col=\count82
+Class revtex4 Info: Incorporating package {textcase}  [1998/11/12 v0.06 Text on
+ly upper/lower case changing (DPC)]. on input line 3682.
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+\c@affil=\count83
+\absbox=\box31
+\c@part=\count84
+\c@section=\count85
+\c@subsection=\count86
+\c@subsubsection=\count87
+\c@paragraph=\count88
+\c@subparagraph=\count89
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\c@figure=\count90
+\c@table=\count91
+
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count92
+)
+\widetext@top=\box32
+\widetext@bot=\box33
+
+(/usr/share/texlive/texmf-dist/tex/latex/revtex4/revsymb.sty
+Package: revsymb 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documenta
+tion)
+LaTeX Info: Redefining \REV@mathfrak on input line 118.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/revtex4/aps.rtx
+File: aps.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentatio
+n)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/revtex4/10pt.rtx
+File: 10pt.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentati
+on)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count93
+))
+\Gin@req@height=\dimen102
+\Gin@req@width=\dimen103
+)
+(exp/chain/blstm_7b/report/report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+Class revtex4 Info: Patching LaTeX tabular. on input line 4.
+Class revtex4 Info: cite was not loaded (OK!) on input line 4.
+Class revtex4 Info: multicol was not loaded (OK!) on input line 4.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count94
+\scratchdimen=\dimen104
+\scratchbox=\box34
+\nofMPsegments=\count95
+\nofMParguments=\count96
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count97
+\MPscratchDim=\dimen105
+\MPnumerator=\count98
+\makeMPintoPDFobject=\count99
+\everyMPtoPDFconversion=\toks18
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+<exp/chain/blstm_7b/report/log_probability.pdf, id=1, 535.50375pt x 575.32188pt
+>
+File: exp/chain/blstm_7b/report/log_probability.pdf Graphic file (type pdf)
+ <use exp/chain/blstm_7b/report/log_probability.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/log_probability.pdf used on 
+input line 12.
+(pdftex.def)             Requested size: 510.0pt x 547.92216pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 12--13
+ [] 
+ []
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./exp/chain/blstm_7b/rep
+ort/log_probability.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm1_backward_f.pdf, id=49, 525.40352p
+t x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm1_backward_f.pdf Graphic file 
+(type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm1_backward_f.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm1_backward_
+f.pdf used on input line 24.
+(pdftex.def)             Requested size: 510.0pt x 555.42166pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 24--25
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2 <./exp/chain/blstm_7b/report/nonlinstats_BLstm1_backward_f.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm1_backward_g.pdf, id=103, 527.83447
+pt x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm1_backward_g.pdf Graphic file 
+(type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm1_backward_g.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm1_backward_
+g.pdf used on input line 36.
+(pdftex.def)             Requested size: 510.0pt x 552.85487pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 36--37
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3 <./exp/chain/blstm_7b/report/nonlinstats_BLstm1_backward_g.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm1_backward_h.pdf, id=159, 527.83447
+pt x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm1_backward_h.pdf Graphic file 
+(type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm1_backward_h.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm1_backward_
+h.pdf used on input line 48.
+(pdftex.def)             Requested size: 510.0pt x 552.85487pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 48--49
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4 <./exp/chain/blstm_7b/report/nonlinstats_BLstm1_backward_h.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm1_backward_i.pdf, id=214, 525.40352
+pt x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm1_backward_i.pdf Graphic file 
+(type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm1_backward_i.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm1_backward_
+i.pdf used on input line 60.
+(pdftex.def)             Requested size: 510.0pt x 555.42166pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 60--61
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <./exp/chain/blstm_7b/report/nonlinstats_BLstm1_backward_i.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm1_backward_o.pdf, id=268, 525.40352
+pt x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm1_backward_o.pdf Graphic file 
+(type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm1_backward_o.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm1_backward_
+o.pdf used on input line 72.
+(pdftex.def)             Requested size: 510.0pt x 555.42166pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 72--73
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6 <./exp/chain/blstm_7b/report/nonlinstats_BLstm1_backward_o.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm1_forward_f.pdf, id=322, 525.40352p
+t x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm1_forward_f.pdf Graphic file (
+type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm1_forward_f.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm1_forward_f
+.pdf used on input line 84.
+(pdftex.def)             Requested size: 510.0pt x 555.42166pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 84--85
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7 <./exp/chain/blstm_7b/report/nonlinstats_BLstm1_forward_f.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm1_forward_g.pdf, id=376, 527.83447p
+t x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm1_forward_g.pdf Graphic file (
+type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm1_forward_g.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm1_forward_g
+.pdf used on input line 96.
+(pdftex.def)             Requested size: 510.0pt x 552.85487pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 96--97
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8 <./exp/chain/blstm_7b/report/nonlinstats_BLstm1_forward_g.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm1_forward_h.pdf, id=431, 527.83447p
+t x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm1_forward_h.pdf Graphic file (
+type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm1_forward_h.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm1_forward_h
+.pdf used on input line 108.
+(pdftex.def)             Requested size: 510.0pt x 552.85487pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 108--109
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9 <./exp/chain/blstm_7b/report/nonlinstats_BLstm1_forward_h.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm1_forward_i.pdf, id=485, 525.40352p
+t x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm1_forward_i.pdf Graphic file (
+type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm1_forward_i.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm1_forward_i
+.pdf used on input line 120.
+(pdftex.def)             Requested size: 510.0pt x 555.42166pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 120--121
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10 <./exp/chain/blstm_7b/report/nonlinstats_BLstm1_forward_i.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm1_forward_o.pdf, id=538, 525.40352p
+t x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm1_forward_o.pdf Graphic file (
+type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm1_forward_o.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm1_forward_o
+.pdf used on input line 132.
+(pdftex.def)             Requested size: 510.0pt x 555.42166pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 132--133
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11 <./exp/chain/blstm_7b/report/nonlinstats_BLstm1_forward_o.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm2_backward_f.pdf, id=591, 525.40352
+pt x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm2_backward_f.pdf Graphic file 
+(type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm2_backward_f.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm2_backward_
+f.pdf used on input line 144.
+(pdftex.def)             Requested size: 510.0pt x 555.42166pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 144--145
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12 <./exp/chain/blstm_7b/report/nonlinstats_BLstm2_backward_f.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm2_backward_g.pdf, id=645, 527.83447
+pt x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm2_backward_g.pdf Graphic file 
+(type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm2_backward_g.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm2_backward_
+g.pdf used on input line 156.
+(pdftex.def)             Requested size: 510.0pt x 552.85487pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 156--157
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[13 <./exp/chain/blstm_7b/report/nonlinstats_BLstm2_backward_g.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm2_backward_h.pdf, id=703, 527.83447
+pt x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm2_backward_h.pdf Graphic file 
+(type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm2_backward_h.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm2_backward_
+h.pdf used on input line 168.
+(pdftex.def)             Requested size: 510.0pt x 552.85487pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 168--169
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14 <./exp/chain/blstm_7b/report/nonlinstats_BLstm2_backward_h.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm2_backward_i.pdf, id=758, 525.40352
+pt x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm2_backward_i.pdf Graphic file 
+(type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm2_backward_i.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm2_backward_
+i.pdf used on input line 180.
+(pdftex.def)             Requested size: 510.0pt x 555.42166pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 180--181
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15 <./exp/chain/blstm_7b/report/nonlinstats_BLstm2_backward_i.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm2_backward_o.pdf, id=812, 525.40352
+pt x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm2_backward_o.pdf Graphic file 
+(type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm2_backward_o.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm2_backward_
+o.pdf used on input line 192.
+(pdftex.def)             Requested size: 510.0pt x 555.42166pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 192--193
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[16 <./exp/chain/blstm_7b/report/nonlinstats_BLstm2_backward_o.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm2_forward_f.pdf, id=866, 525.40352p
+t x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm2_forward_f.pdf Graphic file (
+type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm2_forward_f.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm2_forward_f
+.pdf used on input line 204.
+(pdftex.def)             Requested size: 510.0pt x 555.42166pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 204--205
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17 <./exp/chain/blstm_7b/report/nonlinstats_BLstm2_forward_f.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm2_forward_g.pdf, id=919, 527.83447p
+t x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm2_forward_g.pdf Graphic file (
+type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm2_forward_g.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm2_forward_g
+.pdf used on input line 216.
+(pdftex.def)             Requested size: 510.0pt x 552.85487pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 216--217
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[18 <./exp/chain/blstm_7b/report/nonlinstats_BLstm2_forward_g.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm2_forward_h.pdf, id=974, 527.83447p
+t x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm2_forward_h.pdf Graphic file (
+type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm2_forward_h.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm2_forward_h
+.pdf used on input line 228.
+(pdftex.def)             Requested size: 510.0pt x 552.85487pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 228--229
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19 <./exp/chain/blstm_7b/report/nonlinstats_BLstm2_forward_h.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm2_forward_i.pdf, id=1029, 525.40352
+pt x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm2_forward_i.pdf Graphic file (
+type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm2_forward_i.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm2_forward_i
+.pdf used on input line 240.
+(pdftex.def)             Requested size: 510.0pt x 555.42166pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 240--241
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[20 <./exp/chain/blstm_7b/report/nonlinstats_BLstm2_forward_i.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm2_forward_o.pdf, id=1082, 525.40352
+pt x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm2_forward_o.pdf Graphic file (
+type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm2_forward_o.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm2_forward_o
+.pdf used on input line 252.
+(pdftex.def)             Requested size: 510.0pt x 555.42166pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 252--253
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[21 <./exp/chain/blstm_7b/report/nonlinstats_BLstm2_forward_o.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm3_backward_f.pdf, id=1135, 525.4035
+2pt x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm3_backward_f.pdf Graphic file 
+(type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm3_backward_f.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm3_backward_
+f.pdf used on input line 264.
+(pdftex.def)             Requested size: 510.0pt x 555.42166pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 264--265
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[22 <./exp/chain/blstm_7b/report/nonlinstats_BLstm3_backward_f.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm3_backward_g.pdf, id=1189, 527.8344
+7pt x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm3_backward_g.pdf Graphic file 
+(type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm3_backward_g.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm3_backward_
+g.pdf used on input line 276.
+(pdftex.def)             Requested size: 510.0pt x 552.85487pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 276--277
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23 <./exp/chain/blstm_7b/report/nonlinstats_BLstm3_backward_g.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm3_backward_h.pdf, id=1245, 527.8344
+7pt x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm3_backward_h.pdf Graphic file 
+(type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm3_backward_h.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm3_backward_
+h.pdf used on input line 288.
+(pdftex.def)             Requested size: 510.0pt x 552.85487pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 288--289
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[24 <./exp/chain/blstm_7b/report/nonlinstats_BLstm3_backward_h.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm3_backward_i.pdf, id=1301, 525.4035
+2pt x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm3_backward_i.pdf Graphic file 
+(type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm3_backward_i.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm3_backward_
+i.pdf used on input line 300.
+(pdftex.def)             Requested size: 510.0pt x 555.42166pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 300--301
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[25 <./exp/chain/blstm_7b/report/nonlinstats_BLstm3_backward_i.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm3_backward_o.pdf, id=1356, 525.4035
+2pt x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm3_backward_o.pdf Graphic file 
+(type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm3_backward_o.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm3_backward_
+o.pdf used on input line 312.
+(pdftex.def)             Requested size: 510.0pt x 555.42166pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 312--313
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[26 <./exp/chain/blstm_7b/report/nonlinstats_BLstm3_backward_o.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm3_forward_f.pdf, id=1411, 525.40352
+pt x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm3_forward_f.pdf Graphic file (
+type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm3_forward_f.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm3_forward_f
+.pdf used on input line 324.
+(pdftex.def)             Requested size: 510.0pt x 555.42166pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 324--325
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[27 <./exp/chain/blstm_7b/report/nonlinstats_BLstm3_forward_f.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm3_forward_g.pdf, id=1464, 527.83447
+pt x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm3_forward_g.pdf Graphic file (
+type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm3_forward_g.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm3_forward_g
+.pdf used on input line 336.
+(pdftex.def)             Requested size: 510.0pt x 552.85487pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 336--337
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[28 <./exp/chain/blstm_7b/report/nonlinstats_BLstm3_forward_g.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm3_forward_h.pdf, id=1519, 527.83447
+pt x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm3_forward_h.pdf Graphic file (
+type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm3_forward_h.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm3_forward_h
+.pdf used on input line 348.
+(pdftex.def)             Requested size: 510.0pt x 552.85487pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 348--349
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[29 <./exp/chain/blstm_7b/report/nonlinstats_BLstm3_forward_h.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm3_forward_i.pdf, id=1574, 525.40352
+pt x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm3_forward_i.pdf Graphic file (
+type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm3_forward_i.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm3_forward_i
+.pdf used on input line 360.
+(pdftex.def)             Requested size: 510.0pt x 555.42166pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 360--361
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[30 <./exp/chain/blstm_7b/report/nonlinstats_BLstm3_forward_i.pdf>]
+<exp/chain/blstm_7b/report/nonlinstats_BLstm3_forward_o.pdf, id=1627, 525.40352
+pt x 572.16832pt>
+File: exp/chain/blstm_7b/report/nonlinstats_BLstm3_forward_o.pdf Graphic file (
+type pdf)
+
+<use exp/chain/blstm_7b/report/nonlinstats_BLstm3_forward_o.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/nonlinstats_BLstm3_forward_o
+.pdf used on input line 372.
+(pdftex.def)             Requested size: 510.0pt x 555.42166pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 372--373
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[31 <./exp/chain/blstm_7b/report/nonlinstats_BLstm3_forward_o.pdf>]
+<exp/chain/blstm_7b/report/clipped_proportion_BLstm1_backward_c.pdf, id=1681, 5
+17.73424pt x 818.14912pt>
+File: exp/chain/blstm_7b/report/clipped_proportion_BLstm1_backward_c.pdf Graphi
+c file (type pdf)
+
+<use exp/chain/blstm_7b/report/clipped_proportion_BLstm1_backward_c.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/clipped_proportion_BLstm1_ba
+ckward_c.pdf used on input line 384.
+(pdftex.def)             Requested size: 510.0pt x 805.93784pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 384--385
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 173.58781pt on input line 386.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[32 <./exp/chain/blstm_7b/report/clipped_proportion_BLstm1_backward_c.pdf>]
+<exp/chain/blstm_7b/report/clipped_proportion_BLstm1_backward_r.pdf, id=1727, 5
+17.73424pt x 818.14912pt>
+File: exp/chain/blstm_7b/report/clipped_proportion_BLstm1_backward_r.pdf Graphi
+c file (type pdf)
+
+<use exp/chain/blstm_7b/report/clipped_proportion_BLstm1_backward_r.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/clipped_proportion_BLstm1_ba
+ckward_r.pdf used on input line 396.
+(pdftex.def)             Requested size: 510.0pt x 805.93784pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 396--397
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 173.58781pt on input line 398.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[33 <./exp/chain/blstm_7b/report/clipped_proportion_BLstm1_backward_r.pdf>]
+<exp/chain/blstm_7b/report/clipped_proportion_BLstm1_forward_c.pdf, id=1773, 51
+7.73424pt x 818.14912pt>
+File: exp/chain/blstm_7b/report/clipped_proportion_BLstm1_forward_c.pdf Graphic
+ file (type pdf)
+
+<use exp/chain/blstm_7b/report/clipped_proportion_BLstm1_forward_c.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/clipped_proportion_BLstm1_fo
+rward_c.pdf used on input line 408.
+(pdftex.def)             Requested size: 510.0pt x 805.93784pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 408--409
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 173.58781pt on input line 410.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[34 <./exp/chain/blstm_7b/report/clipped_proportion_BLstm1_forward_c.pdf>]
+<exp/chain/blstm_7b/report/clipped_proportion_BLstm1_forward_r.pdf, id=1819, 51
+7.73424pt x 818.14912pt>
+File: exp/chain/blstm_7b/report/clipped_proportion_BLstm1_forward_r.pdf Graphic
+ file (type pdf)
+
+<use exp/chain/blstm_7b/report/clipped_proportion_BLstm1_forward_r.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/clipped_proportion_BLstm1_fo
+rward_r.pdf used on input line 420.
+(pdftex.def)             Requested size: 510.0pt x 805.93784pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 420--421
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 173.58781pt on input line 422.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[35 <./exp/chain/blstm_7b/report/clipped_proportion_BLstm1_forward_r.pdf>]
+<exp/chain/blstm_7b/report/clipped_proportion_BLstm2_backward_c.pdf, id=1865, 5
+17.73424pt x 818.14912pt>
+File: exp/chain/blstm_7b/report/clipped_proportion_BLstm2_backward_c.pdf Graphi
+c file (type pdf)
+
+<use exp/chain/blstm_7b/report/clipped_proportion_BLstm2_backward_c.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/clipped_proportion_BLstm2_ba
+ckward_c.pdf used on input line 432.
+(pdftex.def)             Requested size: 510.0pt x 805.93784pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 432--433
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 173.58781pt on input line 434.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[36 <./exp/chain/blstm_7b/report/clipped_proportion_BLstm2_backward_c.pdf>]
+<exp/chain/blstm_7b/report/clipped_proportion_BLstm2_backward_r.pdf, id=1911, 5
+17.73424pt x 818.14912pt>
+File: exp/chain/blstm_7b/report/clipped_proportion_BLstm2_backward_r.pdf Graphi
+c file (type pdf)
+
+<use exp/chain/blstm_7b/report/clipped_proportion_BLstm2_backward_r.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/clipped_proportion_BLstm2_ba
+ckward_r.pdf used on input line 444.
+(pdftex.def)             Requested size: 510.0pt x 805.93784pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 444--445
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 173.58781pt on input line 446.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[37 <./exp/chain/blstm_7b/report/clipped_proportion_BLstm2_backward_r.pdf>]
+<exp/chain/blstm_7b/report/clipped_proportion_BLstm2_forward_c.pdf, id=1958, 51
+7.73424pt x 818.14912pt>
+File: exp/chain/blstm_7b/report/clipped_proportion_BLstm2_forward_c.pdf Graphic
+ file (type pdf)
+
+<use exp/chain/blstm_7b/report/clipped_proportion_BLstm2_forward_c.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/clipped_proportion_BLstm2_fo
+rward_c.pdf used on input line 456.
+(pdftex.def)             Requested size: 510.0pt x 805.93784pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 456--457
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 173.58781pt on input line 458.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[38 <./exp/chain/blstm_7b/report/clipped_proportion_BLstm2_forward_c.pdf>]
+<exp/chain/blstm_7b/report/clipped_proportion_BLstm2_forward_r.pdf, id=2005, 51
+7.73424pt x 818.14912pt>
+File: exp/chain/blstm_7b/report/clipped_proportion_BLstm2_forward_r.pdf Graphic
+ file (type pdf)
+
+<use exp/chain/blstm_7b/report/clipped_proportion_BLstm2_forward_r.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/clipped_proportion_BLstm2_fo
+rward_r.pdf used on input line 468.
+(pdftex.def)             Requested size: 510.0pt x 805.93784pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 468--469
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 173.58781pt on input line 470.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[39 <./exp/chain/blstm_7b/report/clipped_proportion_BLstm2_forward_r.pdf>]
+<exp/chain/blstm_7b/report/clipped_proportion_BLstm3_backward_c.pdf, id=2051, 5
+17.73424pt x 818.14912pt>
+File: exp/chain/blstm_7b/report/clipped_proportion_BLstm3_backward_c.pdf Graphi
+c file (type pdf)
+
+<use exp/chain/blstm_7b/report/clipped_proportion_BLstm3_backward_c.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/clipped_proportion_BLstm3_ba
+ckward_c.pdf used on input line 480.
+(pdftex.def)             Requested size: 510.0pt x 805.93784pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 480--481
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 173.58781pt on input line 482.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[40 <./exp/chain/blstm_7b/report/clipped_proportion_BLstm3_backward_c.pdf>]
+<exp/chain/blstm_7b/report/clipped_proportion_BLstm3_backward_r.pdf, id=2098, 5
+17.73424pt x 818.14912pt>
+File: exp/chain/blstm_7b/report/clipped_proportion_BLstm3_backward_r.pdf Graphi
+c file (type pdf)
+
+<use exp/chain/blstm_7b/report/clipped_proportion_BLstm3_backward_r.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/clipped_proportion_BLstm3_ba
+ckward_r.pdf used on input line 492.
+(pdftex.def)             Requested size: 510.0pt x 805.93784pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 492--493
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 173.58781pt on input line 494.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[41 <./exp/chain/blstm_7b/report/clipped_proportion_BLstm3_backward_r.pdf>]
+<exp/chain/blstm_7b/report/clipped_proportion_BLstm3_forward_c.pdf, id=2145, 51
+7.73424pt x 818.14912pt>
+File: exp/chain/blstm_7b/report/clipped_proportion_BLstm3_forward_c.pdf Graphic
+ file (type pdf)
+
+<use exp/chain/blstm_7b/report/clipped_proportion_BLstm3_forward_c.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/clipped_proportion_BLstm3_fo
+rward_c.pdf used on input line 504.
+(pdftex.def)             Requested size: 510.0pt x 805.93784pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 504--505
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 173.58781pt on input line 506.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[42 <./exp/chain/blstm_7b/report/clipped_proportion_BLstm3_forward_c.pdf>]
+<exp/chain/blstm_7b/report/clipped_proportion_BLstm3_forward_r.pdf, id=2192, 51
+7.73424pt x 818.14912pt>
+File: exp/chain/blstm_7b/report/clipped_proportion_BLstm3_forward_r.pdf Graphic
+ file (type pdf)
+
+<use exp/chain/blstm_7b/report/clipped_proportion_BLstm3_forward_r.pdf>
+Package pdftex.def Info: exp/chain/blstm_7b/report/clipped_proportion_BLstm3_fo
+rward_r.pdf used on input line 516.
+(pdftex.def)             Requested size: 510.0pt x 805.93784pt.
+
+Overfull \hbox (264.0pt too wide) in paragraph at lines 516--517
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 173.58781pt on input line 518.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[43 <./exp/chain/blstm_7b/report/clipped_proportion_BLstm3_forward_r.pdf>]
+(exp/chain/blstm_7b/report/report.aux) ) 
+Here is how much of TeX's memory you used:
+ 3235 strings out of 493628
+ 53128 string characters out of 3148973
+ 101781 words of memory out of 3000000
+ 6468 multiletter control sequences out of 15000+200000
+ 4106 words of font info for 16 fonts, out of 3000000 for 9000
+ 935 hyphenation exceptions out of 8191
+ 37i,5n,23p,260b,318s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmtt9.pfb>
+Output written on exp/chain/blstm_7b/report/report.pdf (43 pages, 1653091 bytes
+).
+PDF statistics:
+ 2254 PDF objects out of 2487 (max. 8388607)
+ 365 compressed objects within 4 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 216 words of extra memory for PDF output out of 10000 (max. 10000000)
+

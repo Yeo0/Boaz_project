@@ -1,0 +1,31 @@
+# Running on b18
+# Started at Mon Aug 29 16:07:58 EDT 2016
+# nnet3-latgen-faster --online-ivectors=scp:exp/nnet3/ivectors_dev_aspire_whole_uniformsegmented_win10_over5_v8_chain_blstm_7b_iterfinal_scale0.75_stage1/ivector_online.scp --online-ivector-period=10 --frame-subsampling-factor=3 --frames-per-chunk=150 --extra-left-context=0 --extra-right-context=0 --extra-left-context-initial=-1 --extra-right-context-final=-1 --minimize=false --max-active=10000 --min-active=200 --beam=13.0 --lattice-beam=8.0 --acoustic-scale=1.0 --allow-partial=true --word-symbol-table=exp/chain/blstm_7b/graph_pp/words.txt exp/chain/blstm_7b/final.mdl exp/chain/blstm_7b/graph_pp/HCLG.fst "ark,s,cs:apply-cmvn --norm-means=false --norm-vars=false --utt2spk=ark:data/dev_aspire_whole_uniformsegmented_win10_over5_hires/split400utt/400/utt2spk scp:data/dev_aspire_whole_uniformsegmented_win10_over5_hires/split400utt/400/cmvn.scp scp:data/dev_aspire_whole_uniformsegmented_win10_over5_hires/split400utt/400/feats.scp ark:- |" "ark:|lattice-scale --acoustic-scale=10.0 ark:- ark:- | gzip -c >exp/chain/blstm_7b/decode_dev_aspire_whole_uniformsegmented_win10_over5_v8_iterfinal_pp_stage1/lat.400.gz" 
+nnet3-latgen-faster --online-ivectors=scp:exp/nnet3/ivectors_dev_aspire_whole_uniformsegmented_win10_over5_v8_chain_blstm_7b_iterfinal_scale0.75_stage1/ivector_online.scp --online-ivector-period=10 --frame-subsampling-factor=3 --frames-per-chunk=150 --extra-left-context=0 --extra-right-context=0 --extra-left-context-initial=-1 --extra-right-context-final=-1 --minimize=false --max-active=10000 --min-active=200 --beam=13.0 --lattice-beam=8.0 --acoustic-scale=1.0 --allow-partial=true --word-symbol-table=exp/chain/blstm_7b/graph_pp/words.txt exp/chain/blstm_7b/final.mdl exp/chain/blstm_7b/graph_pp/HCLG.fst 'ark,s,cs:apply-cmvn --norm-means=false --norm-vars=false --utt2spk=ark:data/dev_aspire_whole_uniformsegmented_win10_over5_hires/split400utt/400/utt2spk scp:data/dev_aspire_whole_uniformsegmented_win10_over5_hires/split400utt/400/cmvn.scp scp:data/dev_aspire_whole_uniformsegmented_win10_over5_hires/split400utt/400/feats.scp ark:- |' 'ark:|lattice-scale --acoustic-scale=10.0 ark:- ark:- | gzip -c >exp/chain/blstm_7b/decode_dev_aspire_whole_uniformsegmented_win10_over5_v8_iterfinal_pp_stage1/lat.400.gz' 
+lattice-scale --acoustic-scale=10.0 ark:- ark:- 
+apply-cmvn --norm-means=false --norm-vars=false --utt2spk=ark:data/dev_aspire_whole_uniformsegmented_win10_over5_hires/split400utt/400/utt2spk scp:data/dev_aspire_whole_uniformsegmented_win10_over5_hires/split400utt/400/cmvn.scp scp:data/dev_aspire_whole_uniformsegmented_win10_over5_hires/split400utt/400/feats.scp ark:- 
+single_f1e7fa29-1-555000-565000 yeah [noise] no no it's not cool calm there's there's a there's a day 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_f1e7fa29-1-555000-565000 is 0.808596 over 333 frames.
+single_f1e7fa29-1-560000-570000 [noise] no no it's not cold calm there's there's a there's a database of people who are doing in the past and 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_f1e7fa29-1-560000-570000 is 0.828786 over 333 frames.
+single_f1e7fa29-1-565000-575000 race of people who have donated in the past and so basically the people who i'm gonna call or people who don't it 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_f1e7fa29-1-565000-575000 is 0.789645 over 333 frames.
+single_f1e7fa29-1-570000-580000 so basically the people who i'm going to call are people who don't it probably several times um you know 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_f1e7fa29-1-570000-580000 is 0.926471 over 333 frames.
+single_f1e7fa29-1-575000-585000 probably several times um you know like some people have donated like forty fifty times before 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_f1e7fa29-1-575000-585000 is 0.983858 over 333 frames.
+single_f1e7fa29-1-580000-590000 some people have donated like forty fifty times before and so i guess just all you call these people and it's generally based on 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_f1e7fa29-1-580000-590000 is 0.849391 over 333 frames.
+single_f1e7fa29-1-585000-595000 and so like it's just all you call it these people and it's generally based on like <unk> there's no point calling people who story that i mean 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_f1e7fa29-1-585000-595000 is 0.833333 over 333 frames.
+single_f1e7fa29-1-590000-600000 like there's no point calling people whose daughter is i mean there is a point to call them <unk> during class anybody who's on it in the past 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_f1e7fa29-1-590000-600000 is 0.783103 over 333 frames.
+LOG (apply-cmvn:main():apply-cmvn.cc:146) Applied cepstral mean normalization to 9 utterances, errors on 0
+single_f1e7fa29-1-595000-604940 there is a point to corner people doing anybody who's on it in the past but it's like well you generally calling people who've donated several 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_f1e7fa29-1-595000-604940 is 0.750986 over 331 frames.
+LOG (nnet3-latgen-faster:main():nnet3-latgen-faster.cc:246) Time taken 178.342s: real-time factor assuming 100 frames/sec is 1.98688
+LOG (nnet3-latgen-faster:main():nnet3-latgen-faster.cc:249) Done 9 utterances, failed for 0
+LOG (nnet3-latgen-faster:main():nnet3-latgen-faster.cc:251) Overall log-likelihood per frame is 0.280084 over 8976 frames.
+LOG (lattice-scale:main():lattice-scale.cc:90) Done 9 lattices.
+# Accounting: time=190 threads=1
+# Finished at Mon Aug 29 16:11:08 EDT 2016 with status 0

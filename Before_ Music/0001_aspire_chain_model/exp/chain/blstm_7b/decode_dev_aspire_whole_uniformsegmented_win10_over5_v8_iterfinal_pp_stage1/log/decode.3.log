@@ -1,0 +1,33 @@
+# Running on b18
+# Started at Mon Aug 29 15:49:55 EDT 2016
+# nnet3-latgen-faster --online-ivectors=scp:exp/nnet3/ivectors_dev_aspire_whole_uniformsegmented_win10_over5_v8_chain_blstm_7b_iterfinal_scale0.75_stage1/ivector_online.scp --online-ivector-period=10 --frame-subsampling-factor=3 --frames-per-chunk=150 --extra-left-context=0 --extra-right-context=0 --extra-left-context-initial=-1 --extra-right-context-final=-1 --minimize=false --max-active=10000 --min-active=200 --beam=13.0 --lattice-beam=8.0 --acoustic-scale=1.0 --allow-partial=true --word-symbol-table=exp/chain/blstm_7b/graph_pp/words.txt exp/chain/blstm_7b/final.mdl exp/chain/blstm_7b/graph_pp/HCLG.fst "ark,s,cs:apply-cmvn --norm-means=false --norm-vars=false --utt2spk=ark:data/dev_aspire_whole_uniformsegmented_win10_over5_hires/split400utt/3/utt2spk scp:data/dev_aspire_whole_uniformsegmented_win10_over5_hires/split400utt/3/cmvn.scp scp:data/dev_aspire_whole_uniformsegmented_win10_over5_hires/split400utt/3/feats.scp ark:- |" "ark:|lattice-scale --acoustic-scale=10.0 ark:- ark:- | gzip -c >exp/chain/blstm_7b/decode_dev_aspire_whole_uniformsegmented_win10_over5_v8_iterfinal_pp_stage1/lat.3.gz" 
+nnet3-latgen-faster --online-ivectors=scp:exp/nnet3/ivectors_dev_aspire_whole_uniformsegmented_win10_over5_v8_chain_blstm_7b_iterfinal_scale0.75_stage1/ivector_online.scp --online-ivector-period=10 --frame-subsampling-factor=3 --frames-per-chunk=150 --extra-left-context=0 --extra-right-context=0 --extra-left-context-initial=-1 --extra-right-context-final=-1 --minimize=false --max-active=10000 --min-active=200 --beam=13.0 --lattice-beam=8.0 --acoustic-scale=1.0 --allow-partial=true --word-symbol-table=exp/chain/blstm_7b/graph_pp/words.txt exp/chain/blstm_7b/final.mdl exp/chain/blstm_7b/graph_pp/HCLG.fst 'ark,s,cs:apply-cmvn --norm-means=false --norm-vars=false --utt2spk=ark:data/dev_aspire_whole_uniformsegmented_win10_over5_hires/split400utt/3/utt2spk scp:data/dev_aspire_whole_uniformsegmented_win10_over5_hires/split400utt/3/cmvn.scp scp:data/dev_aspire_whole_uniformsegmented_win10_over5_hires/split400utt/3/feats.scp ark:- |' 'ark:|lattice-scale --acoustic-scale=10.0 ark:- ark:- | gzip -c >exp/chain/blstm_7b/decode_dev_aspire_whole_uniformsegmented_win10_over5_v8_iterfinal_pp_stage1/lat.3.gz' 
+lattice-scale --acoustic-scale=10.0 ark:- ark:- 
+apply-cmvn --norm-means=false --norm-vars=false --utt2spk=ark:data/dev_aspire_whole_uniformsegmented_win10_over5_hires/split400utt/3/utt2spk scp:data/dev_aspire_whole_uniformsegmented_win10_over5_hires/split400utt/3/cmvn.scp scp:data/dev_aspire_whole_uniformsegmented_win10_over5_hires/split400utt/3/feats.scp ark:- 
+single_074f59de-1-100000-110000 no joystick so i mean yeah yeah i say that again 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_074f59de-1-100000-110000 is 1.14746 over 333 frames.
+single_074f59de-1-105000-115000 say that again 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_074f59de-1-105000-115000 is 1.17045 over 333 frames.
+single_074f59de-1-110000-120000 oh yeah yeah but you know like you say but uh yeah you get you didn't get a lot of uh 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_074f59de-1-110000-120000 is 0.953655 over 333 frames.
+single_074f59de-1-115000-125000 yeah but you know as i say but uh yeah you get you didn't get a lot of uh uh well you didn't get a lot of uh uh 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_074f59de-1-115000-125000 is 0.966695 over 333 frames.
+single_074f59de-1-120000-130000 [noise] uh <unk> well you didn't get a lot of uh uh uh options you know and there wasn't a lot of uh like uh um 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_074f59de-1-120000-130000 is 0.961204 over 333 frames.
+single_074f59de-1-125000-135000 [noise] uh options you know i mean and it was a lot of uh like uh um uh interaction with the uh you know between between 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_074f59de-1-125000-135000 is 0.977506 over 333 frames.
+single_074f59de-1-130000-140000 interaction with the uh you know between between uh uh uh it wasn't as realistic the the <unk> 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_074f59de-1-130000-140000 is 1.05567 over 333 frames.
+single_074f59de-1-135000-145000 [noise] uh i i wasn't as realistic the movement <unk> uh wasn't as realistic as they are now ah the <unk> the graphics 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_074f59de-1-135000-145000 is 1.01681 over 333 frames.
+single_074f59de-1-140000-150000 the the uh wasn't as realistic as they are now ah the <unk> the graphics and um and to like say a i was saying you know 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_074f59de-1-140000-150000 is 0.883152 over 333 frames.
+LOG (apply-cmvn:main():apply-cmvn.cc:146) Applied cepstral mean normalization to 10 utterances, errors on 0
+single_074f59de-1-145000-155000 and um oh and the like i say uh i was paying you know the um with with the uh with the <unk> the processor nowadays with michael processors 
+LOG (nnet3-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance single_074f59de-1-145000-155000 is 0.811293 over 333 frames.
+LOG (nnet3-latgen-faster:main():nnet3-latgen-faster.cc:246) Time taken 223.168s: real-time factor assuming 100 frames/sec is 2.23616
+LOG (nnet3-latgen-faster:main():nnet3-latgen-faster.cc:249) Done 10 utterances, failed for 0
+LOG (nnet3-latgen-faster:main():nnet3-latgen-faster.cc:251) Overall log-likelihood per frame is 0.331796 over 9980 frames.
+LOG (lattice-scale:main():lattice-scale.cc:90) Done 10 lattices.
+# Accounting: time=353 threads=1
+# Finished at Mon Aug 29 15:55:48 EDT 2016 with status 0
