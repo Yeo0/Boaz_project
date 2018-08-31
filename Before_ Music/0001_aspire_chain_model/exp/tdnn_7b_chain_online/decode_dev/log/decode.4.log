@@ -1,0 +1,518 @@
+# Running on a15
+# Started at Fri Sep 30 21:15:08 EDT 2016
+# online2-wav-nnet3-latgen-faster --online=true --do-endpointing=false --frame-subsampling-factor=3 --config=exp/tdnn_7b_online/conf/online.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=1.0 --word-symbol-table=exp/chain/tdnn_7b/graph_pp/words.txt exp/tdnn_7b_online/final.mdl exp/chain/tdnn_7b/graph_pp/HCLG.fst ark:data/dev/split25/4/spk2utt "ark,s,cs:extract-segments scp,p:data/dev/split25/4/wav.scp data/dev/split25/4/segments ark:- |" "ark:|lattice-scale --acoustic-scale=10.0 ark:- ark:- | gzip -c >exp/tdnn_7b_online/decode_dev/lat.4.gz" 
+online2-wav-nnet3-latgen-faster --online=true --do-endpointing=false --frame-subsampling-factor=3 --config=exp/tdnn_7b_online/conf/online.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=1.0 --word-symbol-table=exp/chain/tdnn_7b/graph_pp/words.txt exp/tdnn_7b_online/final.mdl exp/chain/tdnn_7b/graph_pp/HCLG.fst ark:data/dev/split25/4/spk2utt 'ark,s,cs:extract-segments scp,p:data/dev/split25/4/wav.scp data/dev/split25/4/segments ark:- |' 'ark:|lattice-scale --acoustic-scale=10.0 ark:- ark:- | gzip -c >exp/tdnn_7b_online/decode_dev/lat.4.gz' 
+LOG (online2-wav-nnet3-latgen-faster:ComputeDerivedVars():ivector-extractor.cc:183) Computing derived variables for iVector extractor
+LOG (online2-wav-nnet3-latgen-faster:ComputeDerivedVars():ivector-extractor.cc:204) Done.
+extract-segments scp,p:data/dev/split25/4/wav.scp data/dev/split25/4/segments ark:- 
+lattice-scale --acoustic-scale=10.0 ark:- ark:- 
+fe_03_00004-A-000738-000877 it's so the topic is 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-000738-000877
+fe_03_00004-A-001024-001301 whether you like prefer eating out or 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-001024-001301
+fe_03_00004-A-001328-001457 eating at home 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-001328-001457
+fe_03_00004-A-001513-001773 it must say i'm biased right now because i'm snowed in 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-001513-001773
+fe_03_00004-A-002512-002580 but 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-002512-002580
+fe_03_00004-A-002973-003690 yeah i was gonna say but typically i <unk> i like eating out at a restaurant because of yeah it's a treat to have stuff brought to you 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-002973-003690
+fe_03_00004-A-003790-004196 and it's usually stuffed different than i would make for myself and 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-003790-004196
+fe_03_00004-A-004315-004428 mhm 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-004315-004428
+fe_03_00004-A-004735-004833 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-004735-004833
+fe_03_00004-A-004947-005221 do you have any uh i guess the other thing was your favorite meal 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-004947-005221
+fe_03_00004-A-005301-005496 or any favorite place to go out to eat 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-005301-005496
+fe_03_00004-A-005809-005894 mhm 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-005809-005894
+fe_03_00004-A-005959-006190 yeah that would be difficult [laughter] 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-005959-006190
+fe_03_00004-A-006340-006431 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-006340-006431
+fe_03_00004-A-006877-006928 i 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-006877-006928
+fe_03_00004-A-006942-007039 think well 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-006942-007039
+fe_03_00004-A-007059-007173 i kinda 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-007059-007173
+fe_03_00004-A-007259-007769 stagger between you know where i've been recently right now i have a favorite mexican place 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-007259-007769
+fe_03_00004-A-007836-008048 nearby that's really a fan i can really good 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-007836-008048
+fe_03_00004-A-008346-008432 hi on the list 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-008346-008432
+fe_03_00004-A-008525-008729 other than that 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-008525-008729
+fe_03_00004-A-009171-009242 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-009171-009242
+fe_03_00004-A-009404-009585 yeah that's everywhere in anywhere 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-009404-009585
+fe_03_00004-A-009916-009960 what else 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-009916-009960
+fe_03_00004-A-010207-010471 yeah i don't know why eat mainly vegetarian so 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-010207-010471
+fe_03_00004-A-010547-010896 that kind of limits or changes things but 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-010547-010896
+fe_03_00004-A-011421-011744 oh yeah that can be difficult my uh 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-011421-011744
+fe_03_00004-A-011783-012007 family's just been forced into it 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-011783-012007
+fe_03_00004-A-012807-012893 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-012807-012893
+fe_03_00004-A-012906-012976 not yet 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-012906-012976
+fe_03_00004-A-013724-013772 mhm 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-013724-013772
+fe_03_00004-A-014427-014732 yeah that would be hard if you know it's okay and 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-014427-014732
+fe_03_00004-A-015131-015231 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-015131-015231
+fe_03_00004-A-015257-015444 oh that can be difficult 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-015257-015444
+fe_03_00004-A-016008-016281 i know is this the first time you've done this 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-016008-016281
+fe_03_00004-A-016296-016421 okay me too 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-016296-016421
+fe_03_00004-A-016842-016905 yeah i'm 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-016842-016905
+fe_03_00004-A-016916-017520 i'm like okay what was it trying to figure something out and should i pattern along or 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-016916-017520
+fe_03_00004-A-017671-017842 supposed to be natural and 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-017671-017842
+fe_03_00004-A-017979-018301 where is it the test of how long you can go without uh 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-017979-018301
+fe_03_00004-A-018338-018676 trying to figure out what you're supposed to be talking about and 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-018338-018676
+fe_03_00004-A-019908-019977 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-019908-019977
+fe_03_00004-A-020794-020921 yeah how much it 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-020794-020921
+fe_03_00004-A-020959-021042 get around it 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-020959-021042
+fe_03_00004-A-021193-021362 how did you find it where you just 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-021193-021362
+fe_03_00004-A-021913-021959 uh-huh 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-021913-021959
+fe_03_00004-A-023042-023100 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-023042-023100
+fe_03_00004-A-023702-023749 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-023702-023749
+fe_03_00004-A-023992-024043 cool 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-023992-024043
+fe_03_00004-A-024196-024322 yeah seems like it 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-024196-024322
+fe_03_00004-A-025407-025528 yeah yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-025407-025528
+fe_03_00004-A-025699-026045 yeah and then they pass it on to each about ten people and 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-025699-026045
+fe_03_00004-A-026320-026520 yeah we'll do our own study here 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-026320-026520
+fe_03_00004-A-026952-027112 um pennsylvania 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-026952-027112
+fe_03_00004-A-027219-027520 yeah it was the first big snow yet so 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-027219-027520
+fe_03_00004-A-027613-027961 it's kinda felt good to not have to work or anything like that and 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-027613-027961
+fe_03_00004-A-028145-028570 yeah it's good the whole cold and having to face it tomorrow 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-028145-028570
+fe_03_00004-A-028580-029122 leave the house actually that's another story that i might not be so ah enthusiastic about but 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-028580-029122
+fe_03_00004-A-029306-029391 but we'll see 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-029306-029391
+fe_03_00004-A-029883-030094 yeah what part so they do they live in 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-029883-030094
+fe_03_00004-A-030947-031202 oh okay so you have the whole east coast banning 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-030947-031202
+fe_03_00004-A-032254-032347 mhm 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-032254-032347
+fe_03_00004-A-032583-032658 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-032583-032658
+fe_03_00004-A-032965-033124 yeah it's definitely the time 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-032965-033124
+fe_03_00004-A-033326-033661 so what is it like sixties seventies for used to or 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-033326-033661
+fe_03_00004-A-033938-034229 oh okay i trade that 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-033938-034229
+fe_03_00004-A-035025-035066 mhm 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-035025-035066
+fe_03_00004-A-035483-035547 mhm 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-035483-035547
+fe_03_00004-A-035657-035754 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-035657-035754
+fe_03_00004-A-036196-036379 yeah and not have to do much more 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-036196-036379
+fe_03_00004-A-036537-037619 yeah i'm kind of in a transitional job time and suddenly this first cold really cold we told me maybe want a thing for really warm area and relocate yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-036537-037619
+fe_03_00004-A-037711-037739 uh-huh 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-037711-037739
+fe_03_00004-A-037802-037868 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-037802-037868
+fe_03_00004-A-037927-038253 like not to be biased but huh 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-037927-038253
+fe_03_00004-A-038362-038641 thinking that sounds like a good plan right about now 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-038362-038641
+fe_03_00004-A-039319-039366 mhm 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-039319-039366
+fe_03_00004-A-040055-040110 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-040055-040110
+fe_03_00004-A-040128-040326 that means not a lot of work getting done 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-040128-040326
+fe_03_00004-A-040531-040603 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-040531-040603
+fe_03_00004-A-040956-041073 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-040956-041073
+fe_03_00004-A-041308-041542 is he the one is he working through penn or 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-041308-041542
+fe_03_00004-A-041992-042387 oh okay 'cause i just found this site through the pen research 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-041992-042387
+fe_03_00004-A-042472-042550 that's why 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-042472-042550
+fe_03_00004-A-042577-042624 but 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-042577-042624
+fe_03_00004-A-042922-042989 mhm 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-042922-042989
+fe_03_00004-A-043810-044122 [laughter] where do we go from here 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-043810-044122
+fe_03_00004-A-045605-045803 yeah or if we 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-045605-045803
+fe_03_00004-A-045878-046054 talk about more or 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-045878-046054
+fe_03_00004-A-046381-046419 what else 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-046381-046419
+fe_03_00004-A-046475-047046 i don't know any other favorite foods or a great recipes christmas i don't know 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-046475-047046
+fe_03_00004-A-047526-047595 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-047526-047595
+fe_03_00004-A-048586-048736 what do you eat for christmas 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-048586-048736
+fe_03_00004-A-048938-049135 oh for hanukkah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-048938-049135
+fe_03_00004-A-049940-049988 mhm 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-049940-049988
+fe_03_00004-A-050253-050310 okay 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-050253-050310
+fe_03_00004-A-050467-050537 get that one 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-050467-050537
+fe_03_00004-A-051280-051349 mhm 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-051280-051349
+fe_03_00004-A-051680-051854 and what's typical of passover 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-051680-051854
+fe_03_00004-A-052317-052367 mhm 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-052317-052367
+fe_03_00004-A-054239-054290 mhm 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-054239-054290
+fe_03_00004-A-055148-055203 mhm 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-055148-055203
+fe_03_00004-A-055851-055899 mhm 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-055851-055899
+fe_03_00004-A-056359-056402 mhm 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-056359-056402
+fe_03_00004-A-058240-058405 yeah that's interesting 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-058240-058405
+fe_03_00004-A-059166-059234 mhm 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-059166-059234
+fe_03_00004-A-059644-059692 mhm 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-059644-059692
+fe_03_00004-A-060164-060229 mhm 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-060164-060229
+fe_03_00004-A-060403-060699 you have family in food usually have a way of doing that 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-A-060403-060699
+fe_03_00004-B-000947-001144 about food about like 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-000947-001144
+fe_03_00004-B-001251-001372 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-001251-001372
+fe_03_00004-B-001389-001525 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-001389-001525
+fe_03_00004-B-002601-002815 i like eating at home too it's just 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-002601-002815
+fe_03_00004-B-002880-003278 the cooking and cleaning up more more than that [laughter] 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-002880-003278
+fe_03_00004-B-004177-004233 mhm 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-004177-004233
+fe_03_00004-B-004395-004518 pretty simple cook but 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-004395-004518
+fe_03_00004-B-004536-004597 i can eat 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-004536-004597
+fe_03_00004-B-004620-004945 things that are such simple if somebody else wants to do them 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-004620-004945
+fe_03_00004-B-005241-005385 yeah gosh 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-005241-005385
+fe_03_00004-B-005592-006290 gosh sushi i think that's something i certainly don't make for myself [laughter] 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-005592-006290
+fe_03_00004-B-006335-006391 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-006335-006391
+fe_03_00004-B-006412-006486 but 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-006412-006486
+fe_03_00004-B-006506-006561 that's 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-006506-006561
+fe_03_00004-B-006584-006727 a great favorite to me 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-006584-006727
+fe_03_00004-B-006769-006839 what about you 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-006769-006839
+fe_03_00004-B-008667-008892 i'm in california we think mexican is 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-008667-008892
+fe_03_00004-B-008934-008968 kind of 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-008934-008968
+fe_03_00004-B-009022-009152 commonplace 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-009022-009152
+fe_03_00004-B-009569-009674 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-009569-009674
+fe_03_00004-B-010930-011055 good for you but i can't 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-010930-011055
+fe_03_00004-B-011086-011204 seem to make myself 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-011086-011204
+fe_03_00004-B-011222-011658 go there especially 'cause my husband will [laughter] 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-011222-011658
+fe_03_00004-B-012216-012654 well even with their husbands heart condition he's not <unk> at this point 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-012216-012654
+fe_03_00004-B-012675-012841 not feeling forced 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-012675-012841
+fe_03_00004-B-013019-013185 yes well i guess since his 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-013019-013185
+fe_03_00004-B-013279-013534 doctor was happy with his cholesterol last time 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-013279-013534
+fe_03_00004-B-013619-013751 tested recently so 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-013619-013751
+fe_03_00004-B-013872-014443 that seems like they're controlling it with medication and so i don't think he's motivated about his diet 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-013872-014443
+fe_03_00004-B-014538-014609 too bad 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-014538-014609
+fe_03_00004-B-014760-014853 yeah but it's 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-014760-014853
+fe_03_00004-B-015416-015485 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-015416-015485
+fe_03_00004-B-015891-016650 i don't know what are we just [laughter] it's like mm yes [laughter] yeah um 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-015891-016650
+fe_03_00004-B-016682-016772 gosh i don't know 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-016682-016772
+fe_03_00004-B-016792-016863 [laughter] 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-016792-016863
+fe_03_00004-B-017653-017716 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-017653-017716
+fe_03_00004-B-018895-018949 given 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-018895-018949
+fe_03_00004-B-019024-019118 that i guess it's 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-019024-019118
+fe_03_00004-B-019137-019189 boy 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-019137-019189
+fe_03_00004-B-019211-019298 mission it's 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-019211-019298
+fe_03_00004-B-019356-019551 i i mean at some level i assume it's 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-019356-019551
+fe_03_00004-B-019571-019624 whether 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-019571-019624
+fe_03_00004-B-019723-020181 it can figure out what we're talking about [laughter] and i don't know 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-019723-020181
+fe_03_00004-B-020194-020405 you know if if the subject is food 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-020194-020405
+fe_03_00004-B-020451-021238 how much we talk about how much it or whether that that clue is it i don't know 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-020451-021238
+fe_03_00004-B-021386-021976 um well my my brother's a research scientist for the national and students standards and technology and he had 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-021386-021976
+fe_03_00004-B-021988-022246 um he's been working with voice recognition 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-021988-022246
+fe_03_00004-B-022398-022743 software whatever for a long while and he sent me an email and said 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-022398-022743
+fe_03_00004-B-022782-022872 [noise] you know 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-022782-022872
+fe_03_00004-B-022960-023654 pass it on [laughter] you want to participate and so i i think probably you know than i've sent it to my friends and 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-022960-023654
+fe_03_00004-B-023700-023946 i imagine some of them have sent to the lungs which just 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-023700-023946
+fe_03_00004-B-024057-024227 going widely [laughter] 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-024057-024227
+fe_03_00004-B-024348-024384 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-024348-024384
+fe_03_00004-B-024493-024568 i figure 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-024493-024568
+fe_03_00004-B-024634-024676 among 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-024634-024676
+fe_03_00004-B-024805-025777 among those i would spread it to alone we should be able to create enough people to to do the whole study because my friend send out so many emails [laughter] 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-024805-025777
+fe_03_00004-B-025808-025866 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-025808-025866
+fe_03_00004-B-025995-026395 right yeah that's like we can we can started pyramid real fast 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-025995-026395
+fe_03_00004-B-026836-026945 where are you snowed in 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-026836-026945
+fe_03_00004-B-027851-027966 [laughter] 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-027851-027966
+fe_03_00004-B-028041-028175 that part would be nice 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-028041-028175
+fe_03_00004-B-028523-028801 [laughter] not quite as good [laughter] 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-028523-028801
+fe_03_00004-B-029082-029150 mhm 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-029082-029150
+fe_03_00004-B-029282-029511 yeah my whole family's back east and 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-029282-029511
+fe_03_00004-B-029756-029892 set up and down the coast 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-029756-029892
+fe_03_00004-B-030149-030195 well 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-030149-030195
+fe_03_00004-B-030212-030351 everywhere from 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-030212-030351
+fe_03_00004-B-030629-030839 actually from new york on down to 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-030629-030839
+fe_03_00004-B-030874-031261 florida so [laughter] yeah i mean i've got 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-030874-031261
+fe_03_00004-B-031327-031386 ones and 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-031327-031386
+fe_03_00004-B-031433-031526 in new york and 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-031433-031526
+fe_03_00004-B-031537-031908 pennsylvania area in maryland and um 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-031537-031908
+fe_03_00004-B-032433-032836 everybody but me [laughter] pretty much is being miserable with the weather 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-032433-032836
+fe_03_00004-B-032979-033313 gee it looks nice out there [laughter] 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-032979-033313
+fe_03_00004-B-033687-034485 um i imagine it's in the seventies today [laughter] yeah we're supposed to get 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-033687-034485
+fe_03_00004-B-034517-034712 yeah we're supposed to get some rain 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-034517-034712
+fe_03_00004-B-034810-034876 friday 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-034810-034876
+fe_03_00004-B-034913-034998 evening i think 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-034913-034998
+fe_03_00004-B-035009-035187 but that's about 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-035009-035187
+fe_03_00004-B-035204-035677 the level of whether that winter provides [laughter] i like that i can 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-035204-035677
+fe_03_00004-B-035783-035845 i haven't 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-035783-035845
+fe_03_00004-B-035855-036045 really i i like to go look at the snow 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-035855-036045
+fe_03_00004-B-036074-036261 not have to shovel it er live with it 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-036074-036261
+fe_03_00004-B-036384-036439 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-036384-036439
+fe_03_00004-B-037667-037906 it seems more tempting at the moment [laughter] 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-037667-037906
+fe_03_00004-B-037927-037966 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-037927-037966
+fe_03_00004-B-039999-040149 closed in their area 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-039999-040149
+fe_03_00004-B-040167-040619 and so that may not may not be anything getting now [laughter] 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-040167-040619
+fe_03_00004-B-041623-041813 no he works directly for 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-041623-041813
+fe_03_00004-B-041827-042241 yes uh national institute standards and technology but i assume he just has 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-041827-042241
+fe_03_00004-B-042404-042606 yeah 'cause i just assumed my brother has 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-042404-042606
+fe_03_00004-B-042619-042717 contacts there 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-042619-042717
+fe_03_00004-B-042794-042965 whatever <unk> 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-042794-042965
+fe_03_00004-B-043655-044021 so i don't know what do we do [laughter] 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-043655-044021
+fe_03_00004-B-044081-044307 yeah i have not a clue 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-044081-044307
+fe_03_00004-B-044911-045318 well i you know i don't i don't know that it said anything like well how do we decide 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-044911-045318
+fe_03_00004-B-045403-045444 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-045403-045444
+fe_03_00004-B-045495-045799 covered the topic and that sort of 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-045495-045799
+fe_03_00004-B-046023-046114 yeah i mean 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-046023-046114
+fe_03_00004-B-046866-047050 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-046866-047050
+fe_03_00004-B-047073-047698 i don't know i like indian food and um another or something i don't cook [laughter] well too 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-047073-047698
+fe_03_00004-B-047751-047990 exotic for me to learn much um um 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-047751-047990
+fe_03_00004-B-048130-048163 but 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-048130-048163
+fe_03_00004-B-048510-048557 i don't know 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-048510-048557
+fe_03_00004-B-048778-049221 um well i'm jewish so [laughter] i started out [laughter] um 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-048778-049221
+fe_03_00004-B-049311-049432 well actually 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-049311-049432
+fe_03_00004-B-049463-049524 although 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-049463-049524
+fe_03_00004-B-049603-049809 um the traditional stuff would be to have 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-049603-049809
+fe_03_00004-B-049842-050385 potato pancakes um i'm not much into fried usually i just 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-049842-050385
+fe_03_00004-B-050521-050632 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-050521-050632
+fe_03_00004-B-050786-050879 when it comes to 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-050786-050879
+fe_03_00004-B-050946-051018 holidays with 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-050946-051018
+fe_03_00004-B-051040-051124 good food to eat 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-051040-051124
+fe_03_00004-B-051148-051294 passover is my choice 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-051148-051294
+fe_03_00004-B-052049-052095 well 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-052049-052095
+fe_03_00004-B-052129-052440 uh make uh multiple soup um 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-052129-052440
+fe_03_00004-B-052457-052836 [noise] what else um well there's a lot of different 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-052457-052836
+fe_03_00004-B-052954-053149 symbol foods and and all that 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-052954-053149
+fe_03_00004-B-053365-053408 that 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-053365-053408
+fe_03_00004-B-053503-053840 our eating as part of the whole service so there's um 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-053503-053840
+fe_03_00004-B-054078-054260 things that you have to make 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-054078-054260
+fe_03_00004-B-054424-054494 there's 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-054424-054494
+fe_03_00004-B-054779-054816 well 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-054779-054816
+fe_03_00004-B-054998-055067 at least in 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-054998-055067
+fe_03_00004-B-055173-055877 that part of the world that my family comes from is typically in like a combination of apples and nuts and wine and sugar 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-055173-055877
+fe_03_00004-B-055888-056258 and it's supposed to like represent the the more the bricks and 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-055888-056258
+fe_03_00004-B-056269-056350 making 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-056269-056350
+fe_03_00004-B-056405-056482 permits and stuff 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-056405-056482
+fe_03_00004-B-056494-056644 but um 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-056494-056644
+fe_03_00004-B-056673-056709 but 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-056673-056709
+fe_03_00004-B-057032-057190 actually put other things in it like 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-057032-057190
+fe_03_00004-B-057208-057416 um tried fruit and stuff because it's 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-057208-057416
+fe_03_00004-B-057519-057735 well i guess they have apple two but they 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-057519-057735
+fe_03_00004-B-057852-058516 so it's like it's this big tradition but at the different traditions for people who grew up in different parts of the world 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-057852-058516
+fe_03_00004-B-058571-058647 but um 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-058571-058647
+fe_03_00004-B-058721-059433 you know it's mostly just it's such a festive meal and there's there's so much food you know cause then other things i just you know i usually make like 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-058721-059433
+fe_03_00004-B-059997-060322 you know it's a big fan meal [laughter] that's 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-059997-060322
+fe_03_00004-B-060391-060505 my favorite holiday 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-060391-060505
+LOG (extract-segments:main():extract-segments.cc:194) Successfully processed 250 lines out of 250 in the segments file. 
+fe_03_00004-B-060644-060754 [laughter] 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-060644-060754
+fe_03_00004-B-060954-061017 yeah 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-060954-061017
+fe_03_00004-B-061345-061424 well 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-061345-061424
+fe_03_00004-B-061492-061745 i don't know what else to tell you [laughter] 
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:272) Decoded utterance fe_03_00004-B-061492-061745
+LOG (online2-wav-nnet3-latgen-faster:Print():online-timing.cc:36) Timing stats: real-time factor was 2.21754 (note: this cannot be less than one.)
+LOG (online2-wav-nnet3-latgen-faster:Print():online-timing.cc:38) Average delay was 2.46139 seconds.
+LOG (online2-wav-nnet3-latgen-faster:Print():online-timing.cc:42) Percentage of time spent idling was 17.6397
+LOG (online2-wav-nnet3-latgen-faster:Print():online-timing.cc:44) Longest delay was 17.6633 seconds for utterance 'fe_03_00004-A-036537-037619'
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:278) Decoded 250 utterances, 0 with errors.
+LOG (online2-wav-nnet3-latgen-faster:main():online2-wav-nnet3-latgen-faster.cc:280) Overall likelihood per frame was 1.167 per frame over 16590 frames.
+LOG (lattice-scale:main():lattice-scale.cc:90) Done 250 lattices.
+# Accounting: time=1270 threads=1
+# Finished at Fri Sep 30 21:36:19 EDT 2016 with status 0
